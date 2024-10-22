@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,700&display=swap');
+
+body {
+    font-family: 'Raleway', sans-serif !important;
+}
+
+.cs-transition {
+    transition: .5s !important;
+}
+
+.cs-w {
+    width: 35% !important;
+}
+
+.cs-w-2 {
+    width: 65% !important;
+}
+
+.cs-img {
+    filter: brightness(0) invert(1) !important;
+}
+
+/*Background*/
+.cs-bg-image {
+    background: url('../images/bg-curve-desktop.svg') no-repeat bottom / 100%;
+}
+
+.cs-bg-blue {
+    background-color: #F8F8FE !important;
+}
+
+.cs-bg-blue-2 {
+    background-color: hsl(238, 22%, 44%) !important;
+}
+
+.cs-bg-blue-3 {
+    background-color: hsl(243, 87%, 12%) !important;
+}
+
+/*Font*/
+.cs-fw-400 {
+    font-weight: 400 !important;
+}
+
+.cs-fw-700 {
+    font-weight: 700 !important;
+}
+
+.cs-fc-blue {
+    color: hsl(238, 22%, 44%) !important;
+}
+
+.cs-fc-blue-2 {
+    color: hsl(243, 87%, 12%) !important;
+}
+
+.cs-fc-cyan {
+    color: hsl(170, 45%, 43%) !important;
+}
+
+.cs-fs-7 {
+    font-size: 15px !important;
+}
+
+/*Form*/
+.cs-form {
+    position: relative;
+}
+
+.cs-warning {
+    position: absolute;
+    bottom: -25px;
+}
+
+/*Buttons*/
+.cs-link:hover {
+    text-shadow: 
+        0.2px 0.2px 0 hsl(238, 22%, 44%), 
+        -0.2px -0.2px 0 hsl(238, 22%, 44%), 
+        0.2px -0.2px 0 hsl(238, 22%, 44%), 
+        -0.2px 0.2px 0 hsl(238, 22%, 44%);
+}
+
+.cs-toggle .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='hsl(238, 22%, 44%)' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+.cs-btn {
+    background-color: hsl(224, 93%, 58%) !important;
+}
+
+.cs-btn:hover {
+    background-color: hsl(224, 93%, 68%) !important;
+}
+
+.cs-btn-2 {
+    border-bottom-color: hsl(170, 45%, 43%) !important;
+    border-top: none !important;
+    border-left: none !important;
+    border-right: none !important;
+}
+
+.cs-btn-2:hover {
+    opacity: 50% !important;
+}
+
+.cs-btn-3:hover {
+    color: hsl(224, 93%, 58%) !important;
+}
+
+.cs-btn-4:hover {
+    border-color: hsl(224, 93%, 58%) !important;
+    color: hsl(224, 93%, 58%) !important;
+}
+
+@media (max-width: 991px) {
+    .cs-w {
+        width: 100% !important;
+    }
+
+    .cs-w-2 {
+        width: 90% !important;
+    }
+
+    .cs-warning {
+        position: absolute;
+        bottom: 37px;
+    }
+
+    .cs-bg-image {
+        background: url('../images/bg-curve-mobile.svg') no-repeat bottom / 100%;
+    }
+}
