@@ -24,7 +24,7 @@ const FyloSectorOne: FC<FyloSectorOneProps> = ({ head, par, img }) => {
     return(
         <Container fluid className='cs-bg-image mt-5 py-5 px-5'>
             <Row className='mb-5 pb-5'>
-                <Col lg={{ span: 6, order: 1 }} xs={{ span: 12, order: 2 }} className='d-flex flex-column justify-content-center pe-5 gap-2 text-lg-start text-center'>
+                <Col data-aos="fade-right" lg={{ span: 6, order: 1 }} xs={{ span: 12, order: 2 }} className='d-flex flex-column justify-content-center pe-lg-5 pe-0 gap-2 text-lg-start text-center'>
                     <h1 className='cs-fw-700 cs-fc-blue-2'>{head}</h1>
                     <p className='cs-fc-blue-2'>{par}</p>
                     <Form noValidate validated={validated} onSubmit={handleSubmit} className='cs-form d-flex flex-lg-row flex-column gap-4'>
@@ -38,7 +38,7 @@ const FyloSectorOne: FC<FyloSectorOneProps> = ({ head, par, img }) => {
                         <Button type='submit' className='cs-transition cs-btn border-0 shadow-sm cs-w rounded-1 cs-fw-700'>Get Started</Button>
                     </Form>
                 </Col>
-                <Col lg={{ span: 6, order: 2 }} xs={{ span: 12, order: 1 }}>
+                <Col data-aos="fade-left" lg={{ span: 6, order: 2 }} xs={{ span: 12, order: 1 }} className='mb-lg-0 mb-5'>
                     <Image fluid src={img} alt='illustration' />
                 </Col>
             </Row>

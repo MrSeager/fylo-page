@@ -20,7 +20,7 @@ const FyloSectorTwo: FC<FyloSectorTwoProps> = ({ head, par_1, par_2, par_3, pers
     return (
         <Container fluid className='cs-bg-blue p-5'>
             <Row className='mb-5'>
-                <Col lg={{ span: 6, order: 1 }} xs={{ span: 12, order: 2 }} className='d-flex flex-column align-items-lg-start align-items-center justify-content-center pe-5 gap-2 text-start'>
+                <Col data-aos="fade-right" lg={{ span: 6, order: 1 }} xs={{ span: 12, order: 2 }} className='d-flex flex-column align-items-lg-start align-items-center justify-content-center pe-lg-5 pe-0 gap-2 text-start'>
                     <h2 className='cs-fw-700 cs-fc-blue-2'>{head}</h2>
                     <p className='cs-fc-blue-2'>{par_1}</p>
                     <p className='cs-fc-blue-2'>{par_2}</p>
@@ -32,10 +32,10 @@ const FyloSectorTwo: FC<FyloSectorTwoProps> = ({ head, par_1, par_2, par_3, pers
                         </Card.Body>
                         <Card.Footer className='border-0 bg-transparent'>
                             <Row className=''>
-                                <Col xs={2} className='d-flex flex-column align-items-start justify-content-center'>
+                                <Col sm={2} xs={3} className='d-flex flex-column align-items-start justify-content-center'>
                                     <Image fluid roundedCircle src={avatarImg} alt='avatar' className='' />
                                 </Col>
-                                <Col xs={10} className='d-flex flex-column align-items-start justify-content-center'>
+                                <Col sm={10} xs={9} className='d-flex flex-column align-items-start justify-content-center'>
                                     <h3 className='cs-fw-700 h6 m-0'>{pers_name}</h3>
                                     <p className='cs-fs-7 m-0'>{pers_job}</p>
                                 </Col>
@@ -43,7 +43,7 @@ const FyloSectorTwo: FC<FyloSectorTwoProps> = ({ head, par_1, par_2, par_3, pers
                         </Card.Footer>
                     </Card>
                 </Col>
-                <Col lg={{ span: 6, order: 2 }} xs={{ span: 12, order: 1 }}>
+                <Col data-aos="fade-left" lg={{ span: 6, order: 2 }} xs={{ span: 12, order: 1 }} className='mb-lg-0 mb-5'>
                     <Image fluid src={img} alt='illustration' />
                 </Col>
             </Row>

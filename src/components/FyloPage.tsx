@@ -40,7 +40,7 @@ const FyloPage: FC = () => {
     AOS.init();
 
     return (
-        <Container fluid className='min-vh-100 pt-5 px-0'>
+        <Container fluid className='min-vh-100 pt-5 px-0 overflow-hidden'>
             <FyloNavbar
                 logoImg={LogoImg} />
             <FyloSectorOne

@@ -8,7 +8,7 @@ interface FyloNavbarProps {
 
 const FyloNavbar: FC<FyloNavbarProps> = ({ logoImg }) => {
     return(
-        <Navbar expand='lg' fixed='top' className='mt-4 mx-5'>
+        <Navbar expand='lg' fixed='top' data-aos="fade-down" className='mt-4 mx-5'>
             <Container fluid className=''>
                 <Navbar.Brand href='#home'><Image fluid src={logoImg} alt='logo' /></Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" className='shadow-none border-0 cs-toggle' />

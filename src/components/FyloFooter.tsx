@@ -29,13 +29,13 @@ const FyloFooter: FC<FyloFooterProps> = ({ logoImg, phone, email }) => {
                         <p className='p-0 m-0'>{email}</p>
                     </Container>
                 </Col>
-                <Col lg={2} xs={12} className='mt-2 d-flex flex-column align-items-start jastify-content-start gap-3'>
+                <Col lg={2} xs={12} className='mt-lg-2 mt-3 d-flex flex-column align-items-start jastify-content-start gap-3'>
                     <Button className='cs-btn-3 cs-transition border-0 bg-transparent p-0'>About Us</Button>
                     <Button className='cs-btn-3 cs-transition border-0 bg-transparent p-0'>Jobs</Button>
                     <Button className='cs-btn-3 cs-transition border-0 bg-transparent p-0'>Press</Button>
                     <Button className='cs-btn-3 cs-transition border-0 bg-transparent p-0'>Blog</Button>
                 </Col>
-                <Col lg={3} xs={12} className='mt-2 d-flex flex-column align-items-start jastify-content-start gap-3'>
+                <Col lg={3} xs={12} className='mt-lg-2 mt-3 d-flex flex-column align-items-start jastify-content-start gap-3'>
                     <Button className='cs-btn-3 cs-transition border-0 bg-transparent p-0'>Contact Us</Button>
                     <Button className='cs-btn-3 cs-transition border-0 bg-transparent p-0'>Terms</Button>
                     <Button className='cs-btn-3 cs-transition border-0 bg-transparent p-0'>Privacy</Button>

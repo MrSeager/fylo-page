@@ -23,11 +23,11 @@ const FyloSectorThree: FC<FyloSectorThreeProps> = ({ head, par }) => {
     return (
         <Container fluid className='cs-bg-blue-2 text-white p-5'>
             <Row className='mt-3'>
-                <Col lg={6} xs={12} className='text-lg-start text-center pe-lg-5 pe-0'>
+                <Col data-aos="fade-right" lg={6} xs={12} className='text-lg-start text-center pe-lg-5 pe-0'>
                     <h3 className='h4 cs-fw-700'>{head}</h3>
                     <p className='cs-fs-7 mt-3 pe-lg-5'>{par}</p>
                 </Col>
-                <Col lg={6} xs={12} className='px-5'>
+                <Col data-aos="fade-left" lg={6} xs={12} className='px-5'>
                     <Form noValidate validated={validated} onSubmit={handleSubmit} className='d-flex flex-column'>
                         <Form.Control 
                             placeholder='Enter your email...'
